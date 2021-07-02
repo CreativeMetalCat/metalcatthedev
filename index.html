@@ -2,10 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>MetalCat's personal page</title>
+    <link href="index.css" rel ="stylesheet">
+    <script src="index.js"></script>
+    <noscript>
+        <style>
+            .footer_link_info
+            {
+                display: block;
+            }
+            .links
+            {
+                display: block;
+            }
+        </style>
+    </noscript>
 </head>
-<body>
-<h1>Under construction</h1>
-<p> i mean what did you expect?</p>
-</body>
+<h1 class = "Name">MetalCat's Portfolio Page</h1>
+<ul class = "navigation">
+    <li>Games</li>
+    <li>Projects</li>
+</ul>
+<footer onmouseleave="OnFooterUnHover()" on onmouseenter="OnFooterHover()">
+    <p>Minor info and links</p>
+    <ul class= "links" id="links">Links
+        <li>
+            <a href="google.com" onmouseover="OnLinkHoveredOver('twitter_info')" onmouseleave="OnLinkUnHovered('twitter_info')">Twitter</a>
+            <p class = "footer_link_info" id ="twitter_info">My twitter page, i rarely check it though</p>
+        </Li>
+        <li>
+            <a href="https://discord.gg/g558aKKWQ2" onmouseover="OnLinkHoveredOver('discord_info')"  onmouseleave="OnLinkUnHovered('discord_info')">Discord</a>
+            <p class = "footer_link_info" id ="discord_info">Invitation to my personal discord server</p>
+        </Li>
+    </ul>
+</footer>
 </html>

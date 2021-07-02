@@ -1,0 +1,49 @@
+.Name
+{
+    text-align: center;
+}
+
+body
+{
+    background-color: dodgerblue;
+    background-image: url("Backgroung_Forest.png");
+}
+
+.navigation
+{
+    font-size: xxx-large;
+    font-family: "Times New Roman";
+    background-color: rgba(0,0,0,0.2);
+    color: azure;
+    margin-right: auto;
+}
+
+footer
+{
+    background-color: rgba(0,0,0,0.8);
+    color: azure;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+a:link
+{
+    color : lightseagreen;
+}
+a:visited
+{
+    color : violet;
+}
+a:hover
+{
+    color: blue;
+}
+.footer_link_info
+{
+    display: none;
+}
+
+.links
+{
+
+}
